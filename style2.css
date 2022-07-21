@@ -18,54 +18,59 @@ main {
 }
 
 /* 1st banner start */
-.top-banner {
+.top-status {
     background-color: #161616;
     width: 1321px;
     height: 646px;
     border-radius: 30px;
-
-
 }
 
-.banner-info h1 {
-    font-size: 70px;
+.status-info h1 {
+    font-size: 50px;
     font-weight: 700;
     line-height: 80px;
     color: #FFFFFF;
     padding-left: 100px;
     padding-top: 50px;
     margin-bottom: 20px;
-
 }
 
-.banner-info {
+.status-info {
     display: flex;
+
 }
 
-.banner-info img {
+.status-info img {
     height: 613px;
     width: 581px;
     margin-top: 33px;
     margin-right: 65px;
-    margin-left: 80px
+    margin-left: 80px;
+
+
 }
 
-.banner-info p {
+.status-info p {
     padding-left: 100px;
     font-size: 16px;
     font-weight: 400px;
     color: #FFFFFF;
     margin-bottom: 50px;
 
+
 }
 
-.banner-info a {
+.status-info a {
     text-decoration: none;
     margin-left: 100px;
-    background-color: #DD0000;
+    background-color: #d00b0b;
     padding: 12px 28px;
     color: #FFFFFF;
     border-radius: 5px;
+    position: relative;
+
+
+
 
 
 
@@ -74,11 +79,19 @@ main {
 .fa-solid {
     padding-left: 15px;
 
+
+
+}
+
+.status-info a:hover {
+
+    background-color: rgb(255, 0, 0);
+    transition: .5s;
 }
 
 /* ---------mid-part start ----------*/
 
-.mid-part1 {
+.second-status1 {
     height: 312px;
     width: 312px;
     background-color: #161616;
@@ -135,7 +148,7 @@ main {
 
 
 
-.matchs {
+.games {
 
     border: 0, 1px solid #E8E8E8;
     width: 312px;
@@ -153,7 +166,7 @@ main {
 
 }
 
-.match {
+.game {
     border: 1px solid #E8E8E8;
     width: 312px;
     height: 242px;
@@ -164,11 +177,11 @@ main {
 
 }
 
-.match h3 {
+.game h3 {
     padding-left: 17px;
 }
 
-.flag {
+.falg {
     margin-left: 35px;
     margin-top: 50px;
 
@@ -177,7 +190,7 @@ main {
 
 }
 
-.flag-2 {
+.falg-2 {
     margin-left: 20px;
     margin-top: 50px;
 
@@ -191,7 +204,7 @@ main {
 
 }
 
-.venu {
+.shedul {
     display: flex;
 
 }
@@ -211,7 +224,7 @@ main {
 
 }
 
-.show {
+.match-shedul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border: 0, 1px solid #E8E8E8;
@@ -226,24 +239,24 @@ main {
 
 }
 
-.end {
+.last {
     margin-top: 500px;
     text-align: center;
     background-color: #161616;
     height: 444px;
     width: 1900px;
-    color: #FFFFFF;
+    color: #f8f2f2;
     font-size: 40px;
     font-weight: 600;
 }
 
-.end h3 {
+.last h3 {
     padding-top: 140px;
 
 
 }
 
-.border {
+.line {
     border: 1px solid #FFFFFF1A;
     margin-left: 140px;
     margin-right: 140px;
@@ -253,7 +266,7 @@ main {
 .nevigation a {
     font-size: 16px;
     text-decoration: none;
-    color: #B9B9B9;
+    color: whitesmoke;
     padding-right: 50px;
     cursor: pointer;
 
